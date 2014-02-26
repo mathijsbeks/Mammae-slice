@@ -11,8 +11,8 @@ $('.fancybox-media').fancybox({
 $("nav .search").click(function(e) {
   $("#search_container").toggle();
   $("#btn").toggle();
-  e.preventDefault();
   $( "#search" ).focus();
+  e.preventDefault();
 });
 
 $(".faq li a, .faqMini li a").click(function(e){
