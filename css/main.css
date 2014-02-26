@@ -2152,6 +2152,93 @@ ul.bigNav li:last-child a {
     margin: 0;
 }
 
+/* forms */
+
+.form {
+    float: left;
+    clear: both;
+    width: 100%;
+    font-family: "chaparral pro";
+    margin: 20px 0;
+    border-bottom: 1px solid #d4c5bf;
+}
+
+.form label {
+    font-family: "chaparral pro";
+    color: #575756;
+    font-size: 18px;
+    width: 240px;
+    float: left;
+}
+
+.radio {
+    margin: 10px 0;
+}
+
+.colFifty {
+    width: 250px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.colFull {
+    width: 500px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.colFifty input,
+.colFull input {
+    font-family: "chaparral pro";
+    color: #575756;
+    font-size: 18px;
+    width: 95%;
+    float: left;
+    border-radius: 5px;
+    border: 1px solid #483530;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.colFull input.check { 
+    margin-right: 20px;
+    margin-top: 5px;
+    width: auto;
+    float: left;
+}
+
+.colFull input.number { 
+    margin-right: 20px;
+    margin-top: 5px;
+    width: 120px;
+    float: left;
+}
+
+.colFull .deelnemen {
+    background: #b05a80;
+    color: #fff;
+    font-size: 18px;
+    float: left;
+    width: 160px;
+    border: none;
+    padding: 10px 0;
+}
+
+.error label {
+    color: red;
+}
+
+.error input {
+    border: 1px solid red;
+}
+
+.error p {
+    color: red;
+    clear: both;
+}
+
 /* clearfix */
 
 
