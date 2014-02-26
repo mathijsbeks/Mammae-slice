@@ -15,6 +15,11 @@ $("nav .search").click(function(e) {
   $( "#search" ).focus();
 });
 
+$(".faq li a, .faqMini li a").click(function(e){
+  $(this).next().slideToggle("fast");
+  e.preventDefault();
+});
+
 if ($("body").hasClass("home")) {
   $('.promo').hover(function(){
   	$(this).addClass("active");
